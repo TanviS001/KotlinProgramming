@@ -36,6 +36,7 @@ fun askQuestion(question: Question) {
 
 fun main() {
     println("Welcome to the Quiz Game!")
+    println("-------------------------------------")
 
     for (question in questions) {
         askQuestion(question)
