@@ -24,7 +24,7 @@ fun askQuestion(question: Question) {
         println(option)
     }
     print("Enter the number of your answer: ")
-    val userAnswer = readLine()?.toIntOrNull()
+    val userAnswer = readln().toInt()
 
     if (userAnswer != null && userAnswer == question.correctAnswer) {
         println("Correct!\n")
