@@ -3,11 +3,11 @@ fun main() {
     println("1. Celsius to Fahrenheit")
     println("2. Fahrenheit to Celsius")
     print("Enter your choice (1/2): ")
-    val choice = readLine()
+    val choice = readln()
     
     if (choice == "1") {
         println("Enter temperature in Celsius: ")
-        val celsius = readLine()?.toDoubleOrNull()
+        val celsius = readln().toDouble()
         
         if (celsius != null) {
             val fahrenheit = (celsius * 9/5) + 32
@@ -17,7 +17,7 @@ fun main() {
         }
     } else if (choice == "2") {
         println("Enter temperature in Fahrenheit: ")
-        val fahrenheit = readLine()?.toDoubleOrNull()
+        val fahrenheit = readln().toDouble()
         
         if (fahrenheit != null) {
             val celsius = (fahrenheit - 32) * 5/9
