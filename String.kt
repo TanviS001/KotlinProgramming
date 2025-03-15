@@ -10,3 +10,15 @@ fun main(args:Array<String>) {
     println(a.isEmpty())
     println(c.trim())
 }
+
+
+//  Output: 
+/*
+    5
+    HELLO
+    hello
+    false
+    HelloMy name is Android
+    false
+    sjdb
+*/
